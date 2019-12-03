@@ -1,8 +1,10 @@
 # Loading necessary libraries
 import numpy as np
 import networkx as nx
+
 import spacy
 nlp = spacy.load('en_core_web_lg')
+
 import warnings
 warnings.filterwarnings('ignore')
 
